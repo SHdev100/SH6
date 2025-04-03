@@ -1,0 +1,187 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-content: flex-start;
+  justify-items: center;
+  background: url("/plasmic/sophias_home/images/wallpaperflareComWallpaperJpg.jpg") top 50% left 50% / cover repeat;
+  overflow: auto;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    background: #472569;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.text__vOeyp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  margin-top: 197px;
+  min-width: 0;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__vOeyp {
+    display: block;
+  }
+}
+.title:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .title:global(.__wab_instance) {
+    display: none;
+  }
+}
+.tilt:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.text__lwW07 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Fugaz One";
+  font-size: 148px;
+  color: #ffffff;
+  margin-top: 0px;
+  filter: drop-shadow(0px 0px 10px #c56eff);
+  backdrop-filter: none;
+  font-weight: 400;
+  transition-property: all;
+  transition-duration: 1s;
+  min-width: 0;
+  -webkit-backdrop-filter: none;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
+}
+.root .text__lwW07:hover {
+  font-size: 200px;
+  margin-top: 0px;
+  filter: drop-shadow(0px 0px 10px #c56eff) drop-shadow(0px 0px 10px #ffffff);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.root .text__lwW07:active {
+  font-size: 170px;
+  color: #f4e4ff;
+  filter: drop-shadow(0px 0px 10px #c56eff) drop-shadow(0px 0px 10px #ffffff);
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1162px;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox {
+    display: none;
+  }
+}
+.img__sKy6Q {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 256px;
+  margin-right: 50px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 10px #d58fff);
+  cursor: pointer;
+  mix-blend-mode: normal;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  border-radius: 50px;
+}
+.img__sKy6Q > picture > img {
+  object-fit: cover;
+}
+.root .img__sKy6Q:hover {
+  height: 300px;
+  backdrop-filter: none;
+  filter: drop-shadow(0px 0px 10px #d58fff);
+  -webkit-backdrop-filter: none;
+}
+.root .img__sKy6Q:active {
+  height: 280px;
+}
+.img__vyab3 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 256px;
+  align-self: center;
+  margin-left: 50px;
+  filter: drop-shadow(0px 0px 10px #d58fff);
+  transition-property: all;
+  transition-duration: 0.5s;
+  margin-right: 50px;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  border-radius: 50px;
+}
+.img__vyab3 > picture > img {
+  object-fit: cover;
+}
+.root .img__vyab3:hover {
+  height: 300px;
+}
+.root .img__vyab3:active {
+  height: 280px;
+}
+.img__qh7Yj {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 256px;
+  align-self: center;
+  margin-left: 50px;
+  filter: drop-shadow(0px 0px 10px #d58fff);
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  border-radius: 50px;
+}
+.img__qh7Yj > picture > img {
+  object-fit: cover;
+}
+.root .img__qh7Yj:hover {
+  height: 300px;
+}
+.root .img__qh7Yj:active {
+  height: 280px;
+}
