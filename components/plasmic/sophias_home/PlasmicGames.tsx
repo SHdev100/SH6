@@ -125,6 +125,7 @@ function PlasmicGames__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -179,7 +180,7 @@ function PlasmicGames__RenderFunc(props: {
             sty.text__vOeyp
           )}
         >
-          {"Sorry, this website only works on computers."}
+          {"Sorry, this part of the website only works on computers."}
         </div>
         <Reveal
           data-plasmic-name={"title"}
